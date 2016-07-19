@@ -1,1 +1,0 @@
-laslabs-web https://github.com/laslabs/odoo-web.git release/9.0
