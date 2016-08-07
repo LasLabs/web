@@ -18,14 +18,14 @@ class TestIrQweb(TransactionCase):
             'class': 'this-class',
         })
 
-    def render_tag_class_add(self):
+    def test_render_tag_class_add(self):
         el = self._test_element('t-class-add', 'that-class')
         res = self.engine.render_node(el)
         self.assertEqual(
             '<span class="this-class that-class"></span>', res,
         )
 
-    def render_tag_class_add(self):
+    def test_render_tag_class_add(self):
         el = self._test_element('t-class-remove', 'this-class')
         res = self.engine.render_node(el)
         self.assertEqual(

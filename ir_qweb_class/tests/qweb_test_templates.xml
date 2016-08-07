@@ -1,0 +1,5 @@
+<templates>
+    <t t-name="ir-qweb-class-el">
+        <span class="this-class" />
+    </t>
+</templates>

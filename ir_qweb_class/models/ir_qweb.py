@@ -21,7 +21,7 @@ class IrQweb(models.Model):
     def render_tag_class_remove(self, element, template_attributes,
                              generated_attributes, qwebcontext
                              ):
-        """ It adds a defined class to an element """
+        """ It removes a defined class to an element """
         expr = template_attributes['class-remove']
         cls = element.attr.get('class', '').replace(expr, '').strip()
         element.attr['class'] = cls
