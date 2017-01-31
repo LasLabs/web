@@ -17,6 +17,6 @@
     'data': [
         'views/web_widget_float_formula.xml',
     ],
-    'installable': False,
+    'installable': True,
     'application': False,
 }
